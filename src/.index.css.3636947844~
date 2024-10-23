@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+.Can{
+  width: 50%;
+  aspect-ratio: 1/2;
+  border:1px solid black;
+  positon:relative;
+
+  mask-image: url(.png);
+  
+  >img{
+    position: absolute;
+    width: 50%;
+    aspect-ratio: 1/2;
+    mix-blend-mode: multiply;
+    
+  }
+  }
